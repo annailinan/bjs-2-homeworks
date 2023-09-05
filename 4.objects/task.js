@@ -48,6 +48,6 @@ console.log(student1);
 // {age: 19, gender: "женский", marks: [4, 5, 4, 5], name: "Анастасия", subject: "Geometry"}
 let student2 = new Student("Роман", "мужской", 25);
 student2.setSubject("Story");
-student2.exclude('неудовлетварительная учёба');
+student2.exclude('неудовлетворительная учёба');
 console.log(student2);
-// {name: "Роман", gender: "мужской", age: 25, excluded: "неудовлетварительная учёба"}
+// {name: "Роман", gender: "мужской", age: 25, excluded: "неудовлетворительная учёба"}
